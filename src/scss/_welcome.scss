@@ -1,0 +1,146 @@
+.welcome {
+  &__container {
+    background-color: var(--color-white);
+  }
+  &__body {
+    padding: 140px 120px;
+    display: flex;
+    gap: 50px;
+  }
+
+  &__image {
+    flex: 0 1 50%;
+    & img {
+    }
+  }
+
+  &__info {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__top {
+    & span {
+      position: relative;
+      color: var(--color-blue);
+      background-color: #f4f4f4;
+      padding: 5px 20px 5px 40px;
+      &::before {
+        content: "";
+        position: absolute;
+        height: 27px;
+        width: 23px;
+        display: block;
+        background: url(/src/images/welcome/Vector.svg);
+        left: 12px;
+      }
+    }
+  }
+
+  &__title {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: 0.36px;
+    color: var(--color-blue);
+    padding: 20px 0px 20px 0px;
+  }
+
+  &__text {
+    padding: 5px 0px 5px 0px;
+  }
+
+  &__bottom {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__experience {
+    flex: 0 1 33.33%;
+    display: flex;
+    flex-direction: column;
+    background: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+
+    & span {
+      font-family: "Mulish";
+      font-style: normal;
+      font-size: 80px;
+      line-height: 110%;
+      color: var(--color-yellow);
+      padding: 0px 0px 15px 0px;
+    }
+    & p {
+      font-family: "Mulish";
+      font-size: 20px;
+      line-height: 130%;
+      color: var(--color-blue);
+    }
+  }
+
+  &__advantages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 66.66%;
+  }
+
+  &__list {
+  }
+
+  &__item {
+  }
+}
+
+@media (max-width: 1000px) {
+  .welcome {
+    &__container {
+      padding: 0px 10px;
+    }
+    &__body {
+      padding: 40px 0px;
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+
+    &__image {
+      padding: 30%;
+    }
+    &__info {
+    }
+
+    &__top {
+    }
+
+    &__title {
+      text-align: center;
+    }
+
+    &__text {
+    }
+
+    &__bottom {
+    }
+
+    &__experience {
+      flex: 0 1 50%;
+    }
+
+    &__advantages {
+      flex: 0 1 50%;
+    }
+
+    &__list {
+    }
+
+    &__item {
+    }
+  }
+}

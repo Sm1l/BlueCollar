@@ -1,0 +1,113 @@
+.main-block {
+  position: relative;
+
+  &__container {
+  }
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    & img {
+      object-position: right;
+    }
+  }
+  &__body {
+    padding: 270px 600px 230px 120px;
+    position: relative;
+  }
+
+  &__text {
+    position: relative;
+    padding: 5px 40px 5px 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    line-height: 175%;
+    &::before {
+      content: "";
+      background: url(/src/images/main/Vector.svg);
+      width: 30px;
+      height: 30px;
+      display: block;
+      position: absolute;
+      left: 20px;
+    }
+  }
+
+  &__title {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    padding: 30px 0px;
+  }
+
+  &__button {
+    color: #1c2752;
+    background-color: var(--color-yellow);
+    &:hover {
+      background-color: #f4f4f4;
+      border: 1px solid transparent;
+    }
+  }
+}
+@media (max-width: 1350px) {
+  .main-block {
+    &__body {
+      padding: 200px 200px 200px 120px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-block {
+    &__container {
+    }
+
+    &__background {
+      & img {
+      }
+    }
+    &__body {
+      padding: 100px 100px 100px 10px;
+    }
+
+    &__text {
+      &::before {
+      }
+    }
+
+    &__title {
+      font-size: 40px;
+    }
+
+    &__button {
+      &:hover {
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .main-block {
+    &__container {
+    }
+
+    &__background {
+      & img {
+      }
+    }
+    &__body {
+      padding: 30px 30px 30px 10px;
+    }
+    &__title {
+      // background-color: rgba(255, 255, 255, 0.2);
+      // display: inline-block;
+    }
+  }
+}

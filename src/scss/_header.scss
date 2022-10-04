@@ -1,0 +1,244 @@
+.header {
+  &__container {
+    position: relative;
+  }
+
+  &__top {
+    background-color: #f2f2f2;
+    padding: 20px 10px 20px 10px;
+  }
+
+  &__main {
+    background-color: #fff;
+    padding: 0px 10px;
+  }
+
+  &__bottom {
+  }
+}
+
+.header-top {
+  &__container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    gap: 10px;
+  }
+
+  &__time {
+    color: var(--color-blue);
+  }
+
+  &__social {
+  }
+}
+.header-social {
+  &__list {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__item {
+  }
+
+  &__link {
+    & svg:hover #facebook,
+    & svg:hover #twitter,
+    & svg:hover #p,
+    & svg:hover #instagram1,
+    & svg:hover #instagram2 {
+      fill: var(--color-yellow);
+    }
+  }
+}
+.header-main {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0px 60px 0px;
+    gap: 10px;
+  }
+
+  &__logo {
+  }
+
+  &__contacts {
+  }
+}
+.header-contacts {
+  display: flex;
+  gap: 65px;
+  &__container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  &__img {
+    & svg:hover #mail1,
+    & svg:hover #phone1 {
+      fill: var(--color-blue);
+    }
+
+    & svg:hover #mail2,
+    & svg:hover #mail3,
+    & svg:hover #phone2 {
+      fill: var(--color-yellow);
+    }
+  }
+
+  &__text {
+    color: var(--color-blue);
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.36px;
+    &:hover {
+      color: var(--color-yellow);
+    }
+  }
+
+  &__link {
+    color: #7e7e7e;
+    &:hover {
+      color: var(--color-yellow);
+    }
+  }
+}
+
+.main {
+  &__container {
+  }
+
+  &__title {
+  }
+}
+.footer {
+  &__container {
+  }
+}
+
+.header-bottom {
+  &__container {
+    max-width: 1200px;
+    background-color: var(--color-yellow);
+    margin: 0 auto;
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 190px;
+    left: 10px;
+    right: 10px;
+    z-index: 20;
+    gap: 10px;
+  }
+  &__nav {
+    font-size: 19px;
+    flex: 1;
+  }
+  &__list {
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+  }
+
+  &__item {
+    & a {
+      color: #222222;
+      transition: all 300ms ease-out;
+      &:hover {
+        color: #ffffff;
+        transition: all 300ms ease-out;
+      }
+    }
+  }
+  &__button {
+    background-color: var(--color-blue);
+    color: #f4f4f4;
+
+    &:hover {
+      background-color: #f4f4f4;
+      border: 1px solid var(--color-blue);
+      color: #1c2752;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .header-main {
+    &__container {
+      flex-direction: column;
+      padding: 10px 0px 10px 0px;
+    }
+  }
+  .header-contacts {
+    gap: 15px;
+    justify-content: space-between;
+    &__container {
+    }
+  }
+
+  .header-bottom {
+    &__container {
+      flex-direction: column;
+      position: static;
+    }
+    &__nav {
+      font-size: 19px;
+      width: 100%;
+    }
+    &__list {
+    }
+    &__button {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .header-main {
+    &__container {
+      align-items: center;
+    }
+  }
+
+  .header-contacts {
+    flex-direction: column;
+
+    &__container {
+    }
+  }
+
+  .header-bottom {
+    &__container {
+    }
+    &__nav {
+    }
+    &__list {
+      flex-direction: column;
+      text-align: center;
+
+      gap: 10px;
+    }
+    &__item {
+      padding: 10px 0px 10px 0px;
+    }
+    &__button {
+    }
+  }
+}
