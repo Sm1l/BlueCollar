@@ -524,7 +524,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-professional {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 140px 0 40px;
+  padding: 140px 10px 40px;
 }
 
 .main-professional__body {
@@ -567,6 +567,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1200px;
   background-color: #fff;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .slide-professional__title {

@@ -1,1 +1,4 @@
-import { createProfessionalDescriptionPart } from "./professional.js";
+import {
+  createProfessionalDescriptionPart,
+  createProfessionalElement,
+} from "./professional.js";
