@@ -362,7 +362,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 650px) {
   .main-block__body {
-    padding: 30px 30px 30px 10px;
+    padding: 30px 10px;
+  }
+
+  .main-block__button {
+    width: 100%;
   }
 }
 
@@ -392,6 +396,16 @@ h1, h2, h3, h4, h5, h6 {
 
 ._button:hover {
   transition: all .3s ease-out;
+}
+
+._title {
+  letter-spacing: .36px;
+  padding: 20px 0;
+  font-family: Mulish;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
 }
 
 .welcome__container {
@@ -433,14 +447,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome__title {
-  letter-spacing: .36px;
   color: var(--color-blue);
-  padding: 20px 0;
-  font-family: Mulish;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 130%;
 }
 
 .welcome__text {
@@ -508,6 +515,62 @@ h1, h2, h3, h4, h5, h6 {
   .welcome__experience, .welcome__advantages {
     flex: 0 50%;
   }
+}
+
+.professional__container {
+  background-color: var(--color-yellow);
+}
+
+.main-professional {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 140px 0 40px;
+}
+
+.main-professional__body {
+  max-width: 830px;
+  color: var(--color-blue);
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.main-professional span {
+  background-color: #fff;
+  padding: 5px 20px 5px 50px;
+}
+
+.main-professional__text {
+  padding: 10px 10px 35px;
+}
+
+.main-professional__list {
+  justify-content: center;
+  gap: 30px;
+  display: flex;
+}
+
+.main-professional__link {
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+}
+
+.main-professional__link:hover {
+  background-color: #fff;
+  border: 1px solid #0000;
+}
+
+.slide-professional {
+  max-width: 1200px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.slide-professional__title {
+  color: var(--color-blue);
 }
 
 /*# sourceMappingURL=index.e8265c92.css.map */
