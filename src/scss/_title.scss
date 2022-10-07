@@ -7,3 +7,10 @@
   letter-spacing: 0.36px;
   padding: 20px 0px 20px 0px;
 }
+
+@media (max-width: 650px) {
+  ._title {
+    font-size: 30px;
+    color: #8671ed;
+  }
+}

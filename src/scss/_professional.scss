@@ -4,6 +4,9 @@
   }
 
   &__body {
+    padding: 140px 120px 0px;
+    position: relative;
+    max-height: 900px;
   }
 
   &__main {
@@ -16,24 +19,31 @@
 .main-professional {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 140px 10px 40px 10px;
+  padding: 0px 10px 40px 10px;
 
   &__body {
     margin: 0 auto;
-    max-width: 830px;
     color: var(--color-blue);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
   }
 
   & span {
+    position: relative;
     background-color: #fff;
     padding: 5px 20px 5px 50px;
     &::before {
-      // content: ;
+      content: "";
+      position: absolute;
+      height: 27px;
+      width: 23px;
+      display: block;
+      background: url(/src/images/professional/Professional1.svg);
+      //   position: absolute;
+      //   top: 0;
+      left: 20px;
     }
   }
 
@@ -41,7 +51,8 @@
   }
 
   &__text {
-    padding: 10px 10px 35px 10px;
+    padding: 10px 0px 35px;
+    text-align: center;
   }
 
   &__buttons {
@@ -66,11 +77,41 @@
   }
 }
 .slide-professional {
+  // position: absolute;
+  // height: 60%;
+  // margin: auto;
+  // top: 600px;
+  // left: 0;
+  // bottom: 0;
+  // right: 0;
+  // overflow: auto;
   background-color: #fff;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0px 10px;
+  padding: 60px;
+  display: flex;
+  gap: 50px;
   &__body {
+    flex: 0 1 50%;
+    & span {
+      position: relative;
+      background-color: #f4f4f4;
+      padding: 5px 20px 5px 50px;
+      &::before {
+        content: "";
+        position: absolute;
+        height: 28px;
+        width: 28px;
+        display: block;
+        left: 10px;
+        background: url(/src/images/professional/Professional2.svg);
+      }
+    }
+  }
+  &__description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 0px 30px 0px;
   }
 
   &__title {
@@ -81,8 +122,88 @@
   }
 
   &__button {
+    background-color: var(--color-yellow);
+    color: var(--color-blue);
+    &:hover {
+      border: 1px solid var(--color-blue);
+      background-color: #fff;
+    }
   }
 
   &__image {
+    flex: 0 1 50%;
+    // padding: 30%;
+    & img {
+      object-position: right;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .professional {
+    &__container {
+    }
+
+    &__body {
+      padding: 40px 0px 0px;
+    }
+
+    &__main {
+    }
+
+    &__slide {
+    }
+  }
+  .main-professional {
+    &__body {
+      & span {
+        align-self: flex-start;
+      }
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+
+    &__buttons {
+    }
+
+    &__list {
+      gap: 10px;
+      flex-direction: column;
+    }
+
+    &__item {
+    }
+
+    &__link {
+      width: 100%;
+    }
+  }
+
+  .slide-professional {
+    flex-direction: column;
+    padding: 10px;
+
+    gap: 20px;
+    &__body {
+    }
+
+    &__title {
+    }
+
+    &__description {
+    }
+
+    &__text {
+    }
+
+    &__button {
+    }
+
+    &__image {
+      padding: 30%;
+    }
   }
 }
