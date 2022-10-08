@@ -955,7 +955,6 @@
 65/home/one/one/Projects/BlueCollar/node_modules/domelementtype/lib1664732215498743807 1
 77/home/one/one/Projects/BlueCollar/node_modules/@parcel/core/lib/loadDotEnv.js1664732215874988397 0
 69/home/one/one/Projects/BlueCollar/node_modules/commander/CHANGELOG.md1664732215458717787 0
-64/home/one/one/Projects/BlueCollar/node_modules/commander/esm.mjs1664732215510751613 0
 69/home/one/one/Projects/BlueCollar/node_modules/commander/package.json1664732215434702175 0
 66/home/one/one/Projects/BlueCollar/node_modules/commander/Readme.md1664732215498743807 0
 77/home/one/one/Projects/BlueCollar/node_modules/commander/package-support.json1664732215418691767 0
@@ -1027,6 +1026,7 @@
 67/home/one/one/Projects/BlueCollar/node_modules/msgpackr/SECURITY.md1664732215778925948 0
 69/home/one/one/Projects/BlueCollar/node_modules/msgpackr/node-index.js1664732215570790644 0
 68/home/one/one/Projects/BlueCollar/node_modules/msgpackr/iterators.js1664732215566788042 0
+66/home/one/one/Projects/BlueCollar/node_modules/msgpackr/index.d.ts1664732215778925948 0
 97/home/one/one/Projects/BlueCollar/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers1664732215314624114 1
 73/home/one/one/Projects/BlueCollar/node_modules/msgpackr/dist/node.cjs.map1664732215734897326 0
 68/home/one/one/Projects/BlueCollar/node_modules/msgpackr/dist/test.js1664732215638834878 0
@@ -1246,7 +1246,6 @@
 51/home/one/one/Projects/BlueCollar/node_modules/@swc1664732214073803333 1
 59/home/one/one/Projects/BlueCollar/node_modules/htmlnano/lib1664732215526762022 1
 66/home/one/one/Projects/BlueCollar/node_modules/terser/lib/parse.js1664732215846970183 0
-78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/SR.js1664732216175181044 0
 96/home/one/one/Projects/BlueCollar/node_modules/@parcel/fs-search/fs-search.linux-arm64-musl.node1664732215778925948 0
 104/home/one/one/Projects/BlueCollar/node_modules/@parcel/runtime-js/lib/helpers/browser/import-polyfill.js1664732215610816664 0
 57/home/one/one/Projects/BlueCollar/node_modules/fill-range1664735706922844855 1
@@ -1317,7 +1316,6 @@
 73/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/index.mjs1664732215919017019 0
 90/home/one/one/Projects/BlueCollar/node_modules/@parcel/hash/parcel-hash.linux-x64-gnu.node1664732215842967581 0
 60/home/one/one/Projects/BlueCollar/node_modules/htmlnano/docs1664732215850972785 1
-74/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_throw.mjs1664732215899004009 0
 76/home/one/one/Projects/BlueCollar/node_modules/@parcel/runtime-react-refresh1664732215358652737 1
 59/home/one/one/Projects/BlueCollar/src/images/main/IMAGE.jpg1664798974261409977 0
 77/home/one/one/Projects/BlueCollar/node_modules/yaml/dist/warnings-1000a372.js1664732215734897326 0
@@ -1386,6 +1384,8 @@
 94/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lz4/lib/dll/example/README.md1664732216023084406 0
 85/home/one/one/Projects/BlueCollar/node_modules/@parcel/core/test/EntryRequest.test.js1664732215830959775 0
 96/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/input-file-multiple.js1664732216099132725 0
+101/home/one/one/Projects/BlueCollar/node_modules/dom-serializer/node_modules/entities/lib/maps/xml.json1664732215518756817 0
+84/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_get_prototype_of.js1664732215658847888 0
 93/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_skip_first_generator_next.js1664732215722889520 0
 78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/MM.js1664732216119145440 0
 85/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_non_iterable_rest.js1664732215690868704 0
@@ -1410,8 +1410,9 @@
 93/home/one/one/Projects/BlueCollar/node_modules/electron-to-chromium/full-chromium-versions.js1664732215402681359 0
 89/home/one/one/Projects/BlueCollar/node_modules/@babel/helper-validator-identifier/scripts1664732215498743807 1
 83/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_to_property_key.js1664732215738899928 0
-69/home/one/one/Projects/BlueCollar/docs/ProfessionalImage.7b47f762.jpg1665167297923893633 0
+69/home/one/one/Projects/BlueCollar/docs/ProfessionalImage.7b47f762.jpg1665210156400400377 0
 87/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_object_spread_props.js1664732215698873908 0
+57/home/one/one/Projects/BlueCollar/docs/index.904637ad.css1665210156576394443 0
 92/home/one/one/Projects/BlueCollar/node_modules/@parcel/packager-js/lib/GlobalOutputFormat.js1664732215514754215 0
 77/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_ts_param.mjs1664732215911011815 0
 122/home/one/one/Projects/BlueCollar/node_modules/@parcel/package-manager/test/fixtures/has-foo/node_modules/foo/package.json1664732215758912939 0
@@ -1498,7 +1499,12 @@
 89/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/offline-apps.js1664732216127150527 0
 91/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_class_private_field_get.js1664732215562785440 0
 85/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/addClassesToSVGElement.js1664732215526762022 0
+96/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/once-event-listener.js1664732216127150527 0
 70/home/one/one/Projects/BlueCollar/node_modules/domhandler/lib/index.js1664732215310621512 0
+78/home/one/one/Projects/BlueCollar/node_modules/@parcel/workers/src/Profiler.js1664732215634832276 0
+96/home/one/one/Projects/BlueCollar/node_modules/@parcel/runtime-js/lib/helpers/bundle-manifest.js1664732215418691767 0
+73/home/one/one/Projects/BlueCollar/node_modules/parent-module/package.json1664732215262590288 0
+82/home/one/one/Projects/BlueCollar/node_modules/type-fest/source/tsconfig-json.d.ts1664732215658847888 0
 81/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lz4/lib/xxhash.c1664732215878990999 0
 78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/AX.js1664732215702876510 0
 92/home/one/one/Projects/BlueCollar/node_modules/@parcel/hash/parcel-hash.linux-arm64-gnu.node1664732215750907735 0
@@ -1528,7 +1534,7 @@
 70/home/one/one/Projects/BlueCollar/node_modules/yaml/types/timestamp.js1664732215714884317 0
 101/home/one/one/Projects/BlueCollar/node_modules/lmdb/node_modules/node-addon-api/napi-inl.deprecated.h1664732215406683961 0
 93/home/one/one/Projects/BlueCollar/node_modules/@parcel/transformer-postcss/src/loadPlugins.js1664732215466722991 0
-58/home/one/one/Projects/BlueCollar/docs/Vector.be686a59.svg1665167297527889745 0
+58/home/one/one/Projects/BlueCollar/docs/Vector.be686a59.svg1665210156400400377 0
 90/home/one/one/Projects/BlueCollar/node_modules/type-fest/source/union-to-intersection.d.ts1664732215662850490 0
 70/home/one/one/Projects/BlueCollar/node_modules/@parcel/package-manager1664732215834962377 1
 88/home/one/one/Projects/BlueCollar/node_modules/lmdb/node_modules/node-addon-api/index.js1664732215634832276 0
@@ -1549,7 +1555,7 @@
 100/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_object_without_properties_loose.mjs1664732215878990999 0
 64/home/one/one/Projects/BlueCollar/node_modules/globals/readme.md1664732215426696971 0
 76/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/scripts/build.sh1664732215919017019 0
-60/home/one/one/Projects/BlueCollar/dist/index.739bf03c.js.map1665167173734608400 0
+60/home/one/one/Projects/BlueCollar/dist/index.739bf03c.js.map1665210124269522450 0
 86/home/one/one/Projects/BlueCollar/node_modules/@parcel/core/src/ParcelConfig.schema.js1664732215919017019 0
 94/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_class_private_field_update.js1664732215586801052 0
 60/home/one/one/Projects/BlueCollar/node_modules/@parcel/cache1664732215526762022 1
@@ -1581,11 +1587,10 @@
 71/home/one/one/Projects/BlueCollar/node_modules/htmlparser2/lib/index.js1664732215326631920 0
 81/home/one/one/Projects/BlueCollar/node_modules/@parcel/events/lib/ValueEmitter.js1664732215498743807 0
 64/home/one/one/Projects/BlueCollar/node_modules/type-fest/license1664732215262590288 0
-101/home/one/one/Projects/BlueCollar/node_modules/dom-serializer/node_modules/entities/lib/maps/xml.json1664732215518756817 0
-84/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_get_prototype_of.js1664732215658847888 0
 74/home/one/one/Projects/BlueCollar/node_modules/node-gyp-build/package.json1664732215386670951 0
 71/home/one/one/Projects/BlueCollar/node_modules/ansi-styles/package.json1664732215310621512 0
 89/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-counters.js1664732215919017019 0
+106/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_load.c1664732215738899928 0
 105/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/COPYRIGHT1664732215354650135 0
 73/home/one/one/Projects/BlueCollar/node_modules/htmlnano/docs/package.json1664732215778925948 0
 101/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb.c1664732215798938959 0
@@ -1635,7 +1640,7 @@
 99/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_class_static_private_method_get.js1664732215618821868 0
 95/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest.c1664732215850972785 0
 96/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest5.c1664732215862980591 0
-49/home/one/one/Projects/BlueCollar/docs/index.html1665167298023894614 0
+49/home/one/one/Projects/BlueCollar/docs/index.html1665210156576394443 0
 97/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/background-clip-text.js1664732215722889520 0
 78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/BW.js1664732215806944163 0
 98/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_copy.c1664732215726892122 0
@@ -1760,7 +1765,7 @@
 81/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_object_spread.js1664732215702876510 0
 56/home/one/one/Projects/BlueCollar/node_modules/.bin/sass1664735707398691389 0
 79/home/one/one/Projects/BlueCollar/node_modules/@jridgewell/set-array/dist/types1664732215438704777 1
-57/home/one/one/Projects/BlueCollar/dist/IMAGE.92502f80.jpg1665166851183374889 0
+57/home/one/one/Projects/BlueCollar/dist/IMAGE.92502f80.jpg1665209906963906030 0
 72/home/one/one/Projects/BlueCollar/node_modules/@parcel/fs/lib/browser.js1664732215374663144 0
 81/home/one/one/Projects/BlueCollar/node_modules/cosmiconfig/dist/readFile.d.ts.map1664732215606814062 0
 77/home/one/one/Projects/BlueCollar/node_modules/@parcel/cache/src/LMDBCache.js1664732215506749011 0
@@ -1859,9 +1864,6 @@
 80/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/pseudo/common1664732215935027428 1
 101/home/one/one/Projects/BlueCollar/node_modules/@parcel/workers/test/integration/workerfarm/logging.js1664732215594806255 0
 94/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-width-stretch.js1664732216039094579 0
-82/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/atrule/media.js1664732215890998805 0
-54/home/one/one/Projects/BlueCollar/node_modules/timsort1664732215438704777 1
-74/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/lexer/match.js1664732215882993601 0
 56/home/one/one/Projects/BlueCollar/node_modules/lmdb/dist1664732216011076777 1
 82/home/one/one/Projects/BlueCollar/node_modules/htmlparser2/lib/WritableStream.d.ts1664732215574793246 0
 73/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/atrule1664732215955040437 1
@@ -1912,6 +1914,9 @@
 84/home/one/one/Projects/BlueCollar/node_modules/abortcontroller-polyfill/package.json1664732215566788042 0
 67/home/one/one/Projects/BlueCollar/node_modules/domhandler/readme.md1664732215470725593 0
 76/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/lexer/generic.js1664732215834962377 0
+54/home/one/one/Projects/BlueCollar/node_modules/timsort1664732215438704777 1
+74/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/lexer/match.js1664732215882993601 0
+82/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/atrule/media.js1664732215890998805 0
 132/home/one/one/Projects/BlueCollar/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-package-redirect-up1664732216043097122 1
 48/home/one/one/Projects/BlueCollar/src/index.html1665158046949874154 0
 75/home/one/one/Projects/BlueCollar/node_modules/nth-check/lib/esm/index.d.ts1664732215586801052 0
@@ -1924,6 +1929,8 @@
 64/home/one/one/Projects/BlueCollar/node_modules/htmlnano/index.js1664732215542772429 0
 87/home/one/one/Projects/BlueCollar/node_modules/css-select/lib/pseudo-selectors/index.js1664732215514754215 0
 65/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/lexer1664732215959043039 1
+74/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_throw.mjs1664732215899004009 0
+60/home/one/one/Projects/BlueCollar/docs/index.625c9377.js.map1665210156580394308 0
 75/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/function1664732215967048244 1
 90/home/one/one/Projects/BlueCollar/node_modules/@parcel/markdown-ansi/test/markdown-ansi.js1664732215414689165 0
 78/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/tokenizer/utils.js1664732215963045641 0
@@ -1974,7 +1981,7 @@
 91/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/pseudo/nth-last-child.js1664732215899004009 0
 80/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lz4/lib/lz4hc.h1664732215971050846 0
 61/home/one/one/Projects/BlueCollar/node_modules/yaml/README.md1664732215746905133 0
-58/home/one/one/Projects/BlueCollar/dist/IMAGE2.dcc5ce06.jpg1665166851179374869 0
+58/home/one/one/Projects/BlueCollar/dist/IMAGE2.dcc5ce06.jpg1665209906959906002 0
 87/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/node/UnicodeRange.js1664732215963045641 0
 100/home/one/one/Projects/BlueCollar/node_modules/abortcontroller-polyfill/dist/polyfill-patch-fetch.js1664732215522759420 0
 92/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_class_private_field_get.mjs1664732215822954571 0
@@ -1995,14 +2002,6 @@
 94/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/sharedarraybuffer.js1664732216171178501 0
 71/home/one/one/Projects/BlueCollar/node_modules/htmlparser2/package.json1664732215470725593 0
 82/home/one/one/Projects/BlueCollar/node_modules/type-fest/source/literal-union.d.ts1664732215578795848 0
-78/home/one/one/Projects/BlueCollar/node_modules/@parcel/workers/src/Profiler.js1664732215634832276 0
-96/home/one/one/Projects/BlueCollar/node_modules/@parcel/runtime-js/lib/helpers/bundle-manifest.js1664732215418691767 0
-73/home/one/one/Projects/BlueCollar/node_modules/parent-module/package.json1664732215262590288 0
-82/home/one/one/Projects/BlueCollar/node_modules/type-fest/source/tsconfig-json.d.ts1664732215658847888 0
-56/home/one/one/Projects/BlueCollar/docs/index.780fd8ed.js1665167298023894614 0
-64/home/one/one/Projects/BlueCollar/node_modules/commander/LICENSE1664732215290608502 0
-68/home/one/one/Projects/BlueCollar/node_modules/domutils/package.json1664732215498743807 0
-90/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/console-basic.js1664732215858977989 0
 76/home/one/one/Projects/BlueCollar/node_modules/@parcel/markdown-ansi/LICENSE1664732215266592890 0
 55/home/one/one/Projects/BlueCollar/node_modules/svgo/bin1664732215290608502 1
 78/home/one/one/Projects/BlueCollar/node_modules/@parcel/utils/src/objectHash.js1664732215826957173 0
@@ -2017,8 +2016,6 @@
 95/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_class_apply_descriptor_get.mjs1664732215806944163 0
 80/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_ts_generator.js1664732215742902530 0
 55/home/one/one/Projects/BlueCollar/node_modules/css-tree1664732215975053448 1
-66/home/one/one/Projects/BlueCollar/node_modules/msgpackr/index.d.ts1664732215778925948 0
-57/home/one/one/Projects/BlueCollar/docs/index.d463ea5d.css1665167298023894614 0
 81/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/opus.js1664732216127150527 0
 74/home/one/one/Projects/BlueCollar/node_modules/htmlparser2/lib/Parser.d.ts1664732215558782837 0
 83/home/one/one/Projects/BlueCollar/node_modules/htmlnano/docs/docs/060-contribute.md1664732215842967581 0
@@ -2041,7 +2038,6 @@
 89/home/one/one/Projects/BlueCollar/node_modules/json-parse-even-better-errors/CHANGELOG.md1664732215310621512 0
 57/home/one/one/Projects/BlueCollar/node_modules/terser/bin1664732215890998805 1
 64/home/one/one/Projects/BlueCollar/node_modules/msgpackr/index.js1664732215546775031 0
-60/home/one/one/Projects/BlueCollar/docs/index.780fd8ed.js.map1665167298023894614 0
 92/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-placeholder.js1664732216003071692 0
 102/home/one/one/Projects/BlueCollar/node_modules/@jridgewell/trace-mapping/dist/types/binary-search.d.ts1664732215558782837 0
 74/home/one/one/Projects/BlueCollar/node_modules/lines-and-columns/README.md1664732215346644931 0
@@ -2079,6 +2075,10 @@
 89/home/one/one/Projects/BlueCollar/node_modules/@babel/helper-validator-identifier/LICENSE1664732215262590288 0
 68/home/one/one/Projects/BlueCollar/node_modules/@trysound/sax/LICENSE1664732215262590288 0
 76/home/one/one/Projects/BlueCollar/node_modules/source-map-js/source-map.d.ts1664735706934840962 0
+78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/SR.js1664732216175181044 0
+56/home/one/one/Projects/BlueCollar/docs/index.625c9377.js1665210156576394443 0
+97/home/one/one/Projects/BlueCollar/node_modules/@parcel/transformer-react-refresh-wrap/src/helpers1664732215506749011 1
+80/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_create_class.js1664732215634832276 0
 57/home/one/one/Projects/BlueCollar/node_modules/parse-json1664732215310621512 1
 80/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_await_value.mjs1664732215794936357 0
 93/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/beforeafterprint.js1664732215742902530 0
@@ -2118,7 +2118,7 @@
 53/home/one/one/Projects/BlueCollar/src/scss/_main.scss1664984628208029409 0
 68/home/one/one/Projects/BlueCollar/node_modules/xxhash-wasm/README.md1664732215514754215 0
 92/home/one/one/Projects/BlueCollar/node_modules/lmdb/node_modules/node-addon-api/package.json1664732215642837480 0
-61/home/one/one/Projects/BlueCollar/src/scss/_professional.scss1665142004713961642 0
+61/home/one/one/Projects/BlueCollar/src/scss/_professional.scss1665168063881912513 0
 94/home/one/one/Projects/BlueCollar/node_modules/@babel/highlight/node_modules/has-flag/index.js1664732215306618910 0
 80/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/removeXMLProcInst.js1664732215774923347 0
 67/home/one/one/Projects/BlueCollar/node_modules/@parcel/core/LICENSE1664732215618821868 0
@@ -2134,7 +2134,7 @@
 82/home/one/one/Projects/BlueCollar/node_modules/node-addon-api/package-support.json1664732215614819266 0
 105/home/one/one/Projects/BlueCollar/node_modules/@parcel/core/test/fixtures/library-scopehoist/package.json1664732216071114923 0
 86/home/one/one/Projects/BlueCollar/node_modules/@parcel/runtime-browser-hmr/src/loaders1664732215522759420 1
-54/home/one/one/Projects/BlueCollar/src/scss/_title.scss1665158208930673132 0
+54/home/one/one/Projects/BlueCollar/src/scss/_title.scss1665208293708358982 0
 83/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_sliced_to_array.js1664732215726892122 0
 57/home/one/one/Projects/BlueCollar/src/images/professional1664986010263989934 1
 100/home/one/one/Projects/BlueCollar/node_modules/@parcel/utils/test/input/sourcemap/source-root.js.map1664732216035092036 0
@@ -2148,13 +2148,6 @@
 79/home/one/one/Projects/BlueCollar/node_modules/cosmiconfig/dist/getDirectory.js1664732215414689165 0
 98/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/requestanimationframe.js1664732216155168328 0
 99/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/contentsecuritypolicy2.js1664732215866983193 0
-106/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_load.c1664732215738899928 0
-96/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/once-event-listener.js1664732216127150527 0
-61/home/one/one/Projects/BlueCollar/docs/index.d463ea5d.css.map1665167298023894614 0
-91/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css3-boxsizing.js1664732216043097122 0
-89/home/one/one/Projects/BlueCollar/node_modules/json-parse-even-better-errors/package.json1664732215290608502 0
-81/home/one/one/Projects/BlueCollar/node_modules/source-map-js/lib/binary-search.js1664735706930842259 0
-80/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/url.js1664732216187188673 0
 78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/TG.js1664732216179183587 0
 65/home/one/one/Projects/BlueCollar/node_modules/lmdb/node-index.js1664732215995066458 0
 77/home/one/one/Projects/BlueCollar/node_modules/msgpackr/dist/index.min.js.map1664732215698873908 0
@@ -2168,7 +2161,7 @@
 98/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_unsupported_iterable_to_array.mjs1664732215915014417 0
 76/home/one/one/Projects/BlueCollar/node_modules/react-error-overlay/README.md1664732215578795848 0
 79/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/removeEmptyAttrs.js1664732215738899928 0
-58/home/one/one/Projects/BlueCollar/dist/Vector.03897d3f.svg1665166851175374850 0
+58/home/one/one/Projects/BlueCollar/dist/Vector.03897d3f.svg1665209906959906002 0
 81/home/one/one/Projects/BlueCollar/node_modules/@jridgewell/resolve-uri/dist/types1664732215478730797 1
 77/home/one/one/Projects/BlueCollar/node_modules/css-what/lib/es/parse.d.ts.map1664732215566788042 0
 70/home/one/one/Projects/BlueCollar/node_modules/normalize-path/index.js1664735706922844855 0
@@ -2180,7 +2173,7 @@
 86/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/lexer/generic-an-plus-b.js1664732215826957173 0
 69/home/one/one/Projects/BlueCollar/node_modules/domelementtype/lib/esm1664732215470725593 1
 64/home/one/one/Projects/BlueCollar/node_modules/lmdb/package.json1664732216011076777 0
-38/home/one/one/Projects/BlueCollar/docs1665167298027894654 1
+38/home/one/one/Projects/BlueCollar/docs1665210156580394308 1
 74/home/one/one/Projects/BlueCollar/node_modules/node-addon-api/package.json1664732215618821868 0
 67/home/one/one/Projects/BlueCollar/node_modules/glob-parent/index.js1664735706922844855 0
 89/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/scope/atrulePrelude.js1664732215530764624 0
@@ -2214,7 +2207,7 @@
 69/home/one/one/Projects/BlueCollar/node_modules/.bin/browserslist-lint1664732216643478585 0
 60/home/one/one/Projects/BlueCollar/node_modules/acorn/LICENSE1664732215306618910 0
 79/home/one/one/Projects/BlueCollar/node_modules/htmlparser2/lib/FeedHandler.d.ts1664732215550777633 0
-69/home/one/one/Projects/BlueCollar/dist/ProfessionalImage.fee7b8a2.jpg1665166851175374850 0
+69/home/one/one/Projects/BlueCollar/dist/ProfessionalImage.fee7b8a2.jpg1665209906959906002 0
 53/home/one/one/Projects/BlueCollar/src/scss/_root.scss1664989087811152196 0
 80/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/pseudo/not.js1664732215899004009 0
 96/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-conic-gradients.js1664732215911011815 0
@@ -2232,7 +2225,7 @@
 82/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/config/lexer.js1664732215874988397 0
 79/home/one/one/Projects/BlueCollar/src/images/professional/ProfessionalImage.jpg1664985967586778349 0
 102/home/one/one/Projects/BlueCollar/node_modules/@parcel/transformer-posthtml/lib/PostHTMLTransformer.js1664732215398678757 0
-67/home/one/one/Projects/BlueCollar/dist/Inter-Regular.65133734.woff21665166851175374850 0
+67/home/one/one/Projects/BlueCollar/dist/Inter-Regular.65133734.woff21665209906959906002 0
 91/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/serviceworkers.js1664732216171178501 0
 76/home/one/one/Projects/BlueCollar/node_modules/@babel/highlight/package.json1664732215346644931 0
 75/home/one/one/Projects/BlueCollar/node_modules/css-tree/dist/csstree.min.js1664732215762915541 0
@@ -2243,14 +2236,15 @@
 81/home/one/one/Projects/BlueCollar/node_modules/type-fest/source/package-json.d.ts1664732215598808858 0
 91/home/one/one/Projects/BlueCollar/node_modules/@babel/highlight/node_modules/chalk/index.js1664732215306618910 0
 83/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_async_iterator.mjs1664732215786931153 0
-56/home/one/one/Projects/BlueCollar/dist/index.739bf03c.js1665167173730608356 0
+56/home/one/one/Projects/BlueCollar/dist/index.739bf03c.js1665210124269522450 0
 65/home/one/one/Projects/BlueCollar/node_modules/@parcel/logger/src1664732215338639727 1
 98/home/one/one/Projects/BlueCollar/node_modules/@parcel/runtime-js/lib/helpers/browser/js-loader.js1664732215614819266 0
 88/home/one/one/Projects/BlueCollar/node_modules/cosmiconfig/dist/getPropertyByPath.js.map1664732215578795848 0
+91/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css3-boxsizing.js1664732216043097122 0
 80/home/one/one/Projects/BlueCollar/node_modules/@parcel/packager-svg/package.json1664732215402681359 0
 83/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/lexer/prepare-tokens.js1664732215919017019 0
 95/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-matches-pseudo.js1664732215975053448 0
-66/home/one/one/Projects/BlueCollar/dist/Inter-Regular.03e9fc36.woff1665166851175374850 0
+66/home/one/one/Projects/BlueCollar/dist/Inter-Regular.03e9fc36.woff1665209906959906002 0
 87/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lz4/lib/dll/liblz4.def1664732215923019621 0
 83/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/webgl2.js1664732216191191216 0
 73/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/mergePaths.js1664732215682863500 0
@@ -2334,7 +2328,7 @@
 53/home/one/one/Projects/BlueCollar/src/scss/_page.scss1665141092701494816 0
 91/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_class_private_field_set.js1664732215582798450 0
 122/home/one/one/Projects/BlueCollar/node_modules/@parcel/source-map/parcel_sourcemap_wasm/dist-node/parcel_sourcemap_wasm.js1664732215558782837 0
-49/home/one/one/Projects/BlueCollar/dist/index.html1665166851171374831 0
+49/home/one/one/Projects/BlueCollar/dist/index.html1665209906947905918 0
 44/home/one/one/Projects/BlueCollar/src/images1664985899491686282 1
 134/home/one/one/Projects/BlueCollar/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/a/index.js1664732215810946765 0
 84/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lz4/lib/dll/example1664732216039094579 1
@@ -2357,7 +2351,7 @@
 82/home/one/one/Projects/BlueCollar/node_modules/postcss-value-parser/lib/index.d.ts1664732215482733399 0
 89/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/font-loading.js1664732216087125096 0
 74/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/lexer/Lexer.js1664732215866983193 0
-56/home/one/one/Projects/BlueCollar/src/js/professional.js1665167208970987377 0
+56/home/one/one/Projects/BlueCollar/src/js/professional.js1665210124173525917 0
 83/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/removeElementsByAttr.js1664732215734897326 0
 98/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_dump.11664732215654845286 0
 84/home/one/one/Projects/BlueCollar/node_modules/@parcel/core/test/Environment.test.js1664732215838964979 0
@@ -2385,8 +2379,15 @@
 81/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/flac.js1664732216087125096 0
 75/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/index.js1664732215854975387 0
 78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/ET.js1664732216083122553 0
+99/home/one/one/Projects/BlueCollar/node_modules/@babel/highlight/node_modules/color-convert/route.js1664732215446709980 0
+64/home/one/one/Projects/BlueCollar/node_modules/commander/esm.mjs1664732215510751613 0
+61/home/one/one/Projects/BlueCollar/docs/index.904637ad.css.map1665210156580394308 0
+116/home/one/one/Projects/BlueCollar/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/foo/package.json1664732215987061254 0
+82/home/one/one/Projects/BlueCollar/node_modules/csso/lib/replace/property/border.js1664732215590803654 0
+64/home/one/one/Projects/BlueCollar/node_modules/sass/sass.dart.js1664735707358704268 0
+108/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/client-hints-dpr-width-viewport.js1664732215846970183 0
 88/home/one/one/Projects/BlueCollar/node_modules/@parcel/core/src/requests/EntryRequest.js1664732215826957173 0
-65/home/one/one/Projects/BlueCollar/docs/Professional1.ba130c6b.svg1665167298023894614 0
+65/home/one/one/Projects/BlueCollar/docs/Professional1.ba130c6b.svg1665210156400400377 0
 82/home/one/one/Projects/BlueCollar/node_modules/type-fest/source/promise-value.d.ts1664732215618821868 0
 78/home/one/one/Projects/BlueCollar/node_modules/svgo/lib/svgo/css-class-list.js1664732215650842684 0
 86/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/vibration.js1664732216191191216 0
@@ -2396,8 +2397,11 @@
 70/home/one/one/Projects/BlueCollar/node_modules/posthtml-parser/license1664732215266592890 0
 61/home/one/one/Projects/BlueCollar/node_modules/node-addon-api1664732215646840082 1
 86/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/dragndrop.js1664732216079120010 0
-65/home/one/one/Projects/BlueCollar/docs/Professional2.f4cc6d49.svg1665167297979894183 0
+65/home/one/one/Projects/BlueCollar/docs/Professional2.f4cc6d49.svg1665210156400400377 0
 94/home/one/one/Projects/BlueCollar/node_modules/abortcontroller-polyfill/src/abortcontroller.js1664732215466722991 0
+89/home/one/one/Projects/BlueCollar/node_modules/json-parse-even-better-errors/package.json1664732215290608502 0
+81/home/one/one/Projects/BlueCollar/node_modules/source-map-js/lib/binary-search.js1664735706930842259 0
+80/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/url.js1664732216187188673 0
 93/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/removeNonInheritableGroupAttrs.js1664732215746905133 0
 73/home/one/one/Projects/BlueCollar/node_modules/lightningcss/node/index.js1664732215406683961 0
 76/home/one/one/Projects/BlueCollar/node_modules/@parcel/namer-default/LICENSE1664732215290608502 0
@@ -2405,8 +2409,7 @@
 81/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/removeRasterImages.js1664732215750907735 0
 90/home/one/one/Projects/BlueCollar/node_modules/@babel/highlight/node_modules/chalk/license1664732215338639727 0
 66/home/one/one/Projects/BlueCollar/node_modules/react-error-overlay1664732215574793246 1
-57/home/one/one/Projects/BlueCollar/docs/IMAGE.163a3aab.jpg1665167297527889745 0
-99/home/one/one/Projects/BlueCollar/node_modules/@babel/highlight/node_modules/color-convert/route.js1664732215446709980 0
+57/home/one/one/Projects/BlueCollar/docs/IMAGE.163a3aab.jpg1665210156396400512 0
 62/home/one/one/Projects/BlueCollar/node_modules/@parcel/workers1664732215698873908 1
 105/home/one/one/Projects/BlueCollar/node_modules/@babel/highlight/node_modules/color-convert/conversions.js1664732215338639727 0
 67/home/one/one/Projects/BlueCollar/node_modules/lightningcss/LICENSE1664732215302616308 0
@@ -2428,13 +2431,13 @@
 81/home/one/one/Projects/BlueCollar/node_modules/@parcel/core/src/resolveOptions.js1664732215971050846 0
 88/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/will-change.js1664732216195193759 0
 83/home/one/one/Projects/BlueCollar/node_modules/yaml/browser/dist/Schema-e94716c8.js1664732215690868704 0
-67/home/one/one/Projects/BlueCollar/docs/Inter-Regular.483683b3.woff21665167297527889745 0
+67/home/one/one/Projects/BlueCollar/docs/Inter-Regular.483683b3.woff21665210156400400377 0
 68/home/one/one/Projects/BlueCollar/node_modules/svgo/lib/css-tools.js1664732215666853092 0
 56/home/one/one/Projects/BlueCollar/node_modules/svgo/dist1664732215798938959 1
 73/home/one/one/Projects/BlueCollar/node_modules/nth-check/lib/compile.d.ts1664732215574793246 0
 70/home/one/one/Projects/BlueCollar/node_modules/svgo/lib/svgo/config.js1664732215598808858 0
 64/home/one/one/Projects/BlueCollar/node_modules/react-refresh/cjs1664732215474728195 1
-65/home/one/one/Projects/BlueCollar/dist/Professional2.ea45a98b.svg1665166851175374850 0
+65/home/one/one/Projects/BlueCollar/dist/Professional2.ea45a98b.svg1665209906959906002 0
 78/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/tokenizer/index.js1664732215862980591 0
 61/home/one/one/Projects/BlueCollar/node_modules/braces/LICENSE1664735706926843557 0
 75/home/one/one/Projects/BlueCollar/node_modules/mdn-data/css/properties.json1664732215650842684 0
@@ -2465,7 +2468,7 @@
 76/home/one/one/Projects/BlueCollar/node_modules/@babel/highlight/lib/index.js1664732215326631920 0
 147/home/one/one/Projects/BlueCollar/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-package-redirect-down/package.json1664732216031089493 0
 78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/MC.js1664732216115142897 0
-38/home/one/one/Projects/BlueCollar/dist1665167173734608400 1
+38/home/one/one/Projects/BlueCollar/dist1665210124273522305 1
 75/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/lexer/search.js1664732215931024826 0
 97/home/one/one/Projects/BlueCollar/node_modules/@parcel/transformer-babel/src/remapAstLocations.js1664732215562785440 0
 96/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_possible_constructor_return.mjs1664732215882993601 0
@@ -2484,7 +2487,7 @@
 67/home/one/one/Projects/BlueCollar/node_modules/electron-to-chromium1664732215570790644 1
 91/home/one/one/Projects/BlueCollar/node_modules/lmdb/node_modules/node-addon-api/common.gypi1664732215322629318 0
 66/home/one/one/Projects/BlueCollar/node_modules/type-fest/readme.md1664732215346644931 0
-61/home/one/one/Projects/BlueCollar/dist/index.e8265c92.css.map1665166851199374966 0
+61/home/one/one/Projects/BlueCollar/dist/index.e8265c92.css.map1665209906959906002 0
 75/home/one/one/Projects/BlueCollar/node_modules/yaml/browser/types/binary.js1664732215326631920 0
 63/home/one/one/Projects/BlueCollar/node_modules/entities/LICENSE1664732215262590288 0
 71/home/one/one/Projects/BlueCollar/node_modules/nth-check/lib/index.d.ts1664732215590803654 0
@@ -2527,8 +2530,8 @@
 76/home/one/one/Projects/BlueCollar/node_modules/@parcel/utils/src/Deferred.js1664732215566788042 0
 76/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/removeDoctype.js1664732215734897326 0
 95/home/one/one/Projects/BlueCollar/node_modules/entities/lib/generated/decode-data-html.d.ts.map1664732215574793246 0
-75/home/one/one/Projects/BlueCollar/node_modules/cosmiconfig/dist/Explorer.js1664732215326631920 0
 63/home/one/one/Projects/BlueCollar/node_modules/lmdb/src/txn.cpp1664732215915014417 0
+75/home/one/one/Projects/BlueCollar/node_modules/cosmiconfig/dist/Explorer.js1664732215326631920 0
 64/home/one/one/Projects/BlueCollar/node_modules/csso/package.json1664732215758912939 0
 71/home/one/one/Projects/BlueCollar/node_modules/@parcel/packager-svg/src1664732215334637124 1
 60/home/one/one/Projects/BlueCollar/src/images/main/Vector.svg1664811947561216057 0
@@ -2637,8 +2640,6 @@
 81/home/one/one/Projects/BlueCollar/node_modules/@parcel/codeframe/src/codeframe.js1664732215758912939 0
 91/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/v8/v8-fast-api-calls-v16.h1664732215979056050 0
 77/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/removeMetadata.js1664732215742902530 0
-97/home/one/one/Projects/BlueCollar/node_modules/@parcel/transformer-react-refresh-wrap/src/helpers1664732215506749011 1
-80/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/lib/_create_class.js1664732215634832276 0
 88/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/node/ClassSelector.js1664732215594806255 0
 81/home/one/one/Projects/BlueCollar/node_modules/lmdb/dependencies/lz4/lib/xxhash.h1664732215983058652 0
 82/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/http2.js1664732216095130182 0
@@ -2692,7 +2693,7 @@
 73/home/one/one/Projects/BlueCollar/node_modules/@parcel/watcher/src/shared1664732215598808858 1
 80/home/one/one/Projects/BlueCollar/node_modules/svgo/plugins/removeUselessDefs.js1664732215762915541 0
 78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/CU.js1664732216051102208 0
-58/home/one/one/Projects/BlueCollar/dist/Vector.aadba462.svg1665166851175374850 0
+58/home/one/one/Projects/BlueCollar/dist/Vector.aadba462.svg1665209906947905918 0
 71/home/one/one/Projects/BlueCollar/node_modules/term-size/vendor/windows1664732215442707379 1
 65/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/utils1664732215895001407 1
 71/home/one/one/Projects/BlueCollar/node_modules/entities/lib/decode.d.ts1664732215614819266 0
@@ -3058,7 +3059,7 @@
 82/home/one/one/Projects/BlueCollar/node_modules/update-browserslist-db/package.json1664732215414689165 0
 64/home/one/one/Projects/BlueCollar/node_modules/@types/parse-json1664732215310621512 1
 53/home/one/one/Projects/BlueCollar/node_modules/parcel1664732215490738603 1
-58/home/one/one/Projects/BlueCollar/docs/Vector.457d24f3.svg1665167297527889745 0
+58/home/one/one/Projects/BlueCollar/docs/Vector.457d24f3.svg1665210156400400377 0
 92/home/one/one/Projects/BlueCollar/node_modules/htmlnano/lib/modules/removeAttributeQuotes.js1664732215602811460 0
 76/home/one/one/Projects/BlueCollar/node_modules/htmlnano/docs/babel.config.js1664732215390673553 0
 77/home/one/one/Projects/BlueCollar/node_modules/@parcel/fs-search/package.json1664732215314624114 0
@@ -3273,7 +3274,7 @@
 79/home/one/one/Projects/BlueCollar/node_modules/cosmiconfig/dist/ExplorerBase.js1664732215346644931 0
 80/home/one/one/Projects/BlueCollar/node_modules/css-select/lib/procedure.d.ts.map1664732215606814062 0
 61/home/one/one/Projects/BlueCollar/node_modules/csso/README.md1664732215774923347 0
-57/home/one/one/Projects/BlueCollar/dist/index.e8265c92.css1665166851195374946 0
+57/home/one/one/Projects/BlueCollar/dist/index.e8265c92.css1665209906951905946 0
 81/home/one/one/Projects/BlueCollar/node_modules/css-tree/lib/syntax/node/String.js1664732215943032632 0
 78/home/one/one/Projects/BlueCollar/node_modules/css-select/lib/pseudo-selectors1664732215658847888 1
 92/home/one/one/Projects/BlueCollar/node_modules/css-select/lib/pseudo-selectors/subselects.js1664732215554780235 0
@@ -3342,7 +3343,7 @@
 80/home/one/one/Projects/BlueCollar/node_modules/@parcel/graph/lib/ContentGraph.js1664732215526762022 0
 71/home/one/one/Projects/BlueCollar/node_modules/css-what/lib/es/index.js1664732215422694369 0
 69/home/one/one/Projects/BlueCollar/node_modules/ordered-binary/LICENSE1664732215298613706 0
-65/home/one/one/Projects/BlueCollar/dist/Professional1.7d93ec36.svg1665166851175374850 0
+65/home/one/one/Projects/BlueCollar/dist/Professional1.7d93ec36.svg1665209906947905918 0
 71/home/one/one/Projects/BlueCollar/node_modules/css-what/lib/es/types.js1664732215538769827 0
 73/home/one/one/Projects/BlueCollar/node_modules/css-what/lib/es/types.d.ts1664732215622824470 0
 81/home/one/one/Projects/BlueCollar/node_modules/css-what/lib/es/stringify.d.ts.map1664732215574793246 0
@@ -3472,8 +3473,6 @@
 89/home/one/one/Projects/BlueCollar/node_modules/chrome-trace-event/dist/trace-event.js.map1664732215330634522 0
 98/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-image-orientation.js1664732215963045641 0
 87/home/one/one/Projects/BlueCollar/node_modules/chrome-trace-event/dist/trace-event.d.ts1664732215426696971 0
-100/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/comparedocumentposition.js1664732215854975387 0
-59/home/one/one/Projects/BlueCollar/node_modules/terser/tools1664732215895001407 1
 77/home/one/one/Projects/BlueCollar/node_modules/chrome-trace-event/LICENSE.txt1664732215450712583 0
 75/home/one/one/Projects/BlueCollar/node_modules/chrome-trace-event/README.md1664732215386670951 0
 51/home/one/one/Projects/BlueCollar/node_modules/csso1664732215766918143 1
@@ -3509,10 +3508,6 @@
 75/home/one/one/Projects/BlueCollar/node_modules/@parcel/optimizer-terser/lib1664732215298613706 1
 93/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/broadcastchannel.js1664732215778925948 0
 72/home/one/one/Projects/BlueCollar/node_modules/csso/lib/replace/property1664732215710881715 1
-116/home/one/one/Projects/BlueCollar/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/foo/package.json1664732215987061254 0
-82/home/one/one/Projects/BlueCollar/node_modules/csso/lib/replace/property/border.js1664732215590803654 0
-64/home/one/one/Projects/BlueCollar/node_modules/sass/sass.dart.js1664735707358704268 0
-108/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/client-hints-dpr-width-viewport.js1664732215846970183 0
 72/home/one/one/Projects/BlueCollar/node_modules/csso/lib/replace/color.js1664732215598808858 0
 64/home/one/one/Projects/BlueCollar/node_modules/csso/lib/index.js1664732215722889520 0
 75/home/one/one/Projects/BlueCollar/node_modules/ordered-binary/tests/test.js1664732215478730797 0
@@ -3638,7 +3633,7 @@
 76/home/one/one/Projects/BlueCollar/node_modules/terser/lib/compress/common.js1664732215730894724 0
 78/home/one/one/Projects/BlueCollar/node_modules/terser/lib/compress/evaluate.js1664732215758912939 0
 76/home/one/one/Projects/BlueCollar/node_modules/terser/lib/compress/inline.js1664732215814949366 0
-58/home/one/one/Projects/BlueCollar/docs/IMAGE2.c45dbcf5.jpg1665167297527889745 0
+58/home/one/one/Projects/BlueCollar/docs/IMAGE2.c45dbcf5.jpg1665210156400400377 0
 91/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/object-entries.js1664732216127150527 0
 78/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/regions/JO.js1664732216103135268 0
 102/home/one/one/Projects/BlueCollar/node_modules/react-refresh/cjs/react-refresh-babel.production.min.js1664732215426696971 0
@@ -3885,7 +3880,7 @@
 94/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/template-literals.js1664732216179183587 0
 99/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-boxdecorationbreak.js1664732215895001407 0
 86/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/png-alpha.js1664732216131153070 0
-66/home/one/one/Projects/BlueCollar/docs/Inter-Regular.01de2896.woff1665167297527889745 0
+66/home/one/one/Projects/BlueCollar/docs/Inter-Regular.01de2896.woff1665210156400400377 0
 97/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-display-contents.js1664732215931024826 0
 70/home/one/one/Projects/BlueCollar/node_modules/entities/lib/index.d.ts1664732215622824470 0
 91/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/scrollintoview.js1664732216159170871 0
@@ -3897,6 +3892,8 @@
 75/home/one/one/Projects/BlueCollar/node_modules/lightningcss/node/index.d.ts1664732215486736001 0
 94/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-focus-visible.js1664732215955040437 0
 86/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/proximity.js1664732216143160699 0
+59/home/one/one/Projects/BlueCollar/node_modules/terser/tools1664732215895001407 1
+100/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/comparedocumentposition.js1664732215854975387 0
 77/home/one/one/Projects/BlueCollar/node_modules/source-map-support/register.js1664732215410686562 0
 92/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/x-frame-options.js1664732216195193759 0
 84/home/one/one/Projects/BlueCollar/node_modules/@swc/helpers/src/_async_generator.mjs1664732215778925948 0
@@ -4105,6 +4102,9 @@
 91/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/pagevisibility.js1664732216127150527 0
 82/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/audio.js1664732215682863500 0
 91/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-cross-fade.js1664732215919017019 0
+64/home/one/one/Projects/BlueCollar/node_modules/commander/LICENSE1664732215290608502 0
+68/home/one/one/Projects/BlueCollar/node_modules/domutils/package.json1664732215498743807 0
+90/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/console-basic.js1664732215858977989 0
 83/home/one/one/Projects/BlueCollar/node_modules/cosmiconfig/dist/ExplorerSync.js.map1664732215558782837 0
 64/home/one/one/Projects/BlueCollar/node_modules/terser/lib/ast.js1664732215518756817 0
 92/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/offscreencanvas.js1664732216127150527 0
@@ -4224,7 +4224,7 @@
 87/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/array-flat.js1664732215658847888 0
 84/home/one/one/Projects/BlueCollar/node_modules/@parcel/core/test/BundleGraph.test.js1664732215750907735 0
 80/home/one/one/Projects/BlueCollar/node_modules/cosmiconfig/dist/loaders.d.ts.map1664732215590803654 0
-33/home/one/one/Projects/BlueCollar1665167297511889588 1
+33/home/one/one/Projects/BlueCollar1665210156376401186 1
 93/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/css-touch-action.js1664732216031089493 0
 106/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/background-repeat-round-space.js1664732215730894724 0
 81/home/one/one/Projects/BlueCollar/node_modules/caniuse-lite/data/features/menu.js1664732216119145440 0

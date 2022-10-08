@@ -8,7 +8,7 @@ const slideProfessionals = [
       "Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.",
       "In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.",
     ],
-    buttonLink: "https://sm1l.github.io/BlueCollar/#commercial",
+    buttonLink: "https://sm1l.github.io/BazaVAGa",
     image: "/src/images/professional/ProfessionalImage.jpg",
   },
   {
@@ -22,8 +22,8 @@ const slideProfessionals = [
       "Это третий абзац второй ссылки. Это третий абзац второй ссылки. Это третий абзац второй ссылки. Это третий абзац второй ссылки. Это третий абзац второй ссылки. Это третий абзац второй ссылки.",
       "Это четвертый абзац.",
     ],
-    buttonLink: "https://sm1l.github.io/BlueCollar/#residential",
-    image: "/src/images/welcome/IMAGE2.jpg",
+    buttonLink: "https://sm1l.github.io/AliceWeather",
+    image: "../images/welcome/IMAGE2.jpg",
   },
   {
     id: "professional-button-three",
@@ -71,17 +71,16 @@ const mainProfessionalButtons = document.querySelectorAll(
   ".main-professional__link"
 );
 // console.log(mainProfessionalButtons);
-let professionalButtonId = "professional-button-two";
 
 for (let count = 0; count < mainProfessionalButtons.length; count++) {
   const button = mainProfessionalButtons[count];
   button.addEventListener("click", onClickProfessionalButton);
-  // renderProfessional();
+
   // return professionalButton;
   // console.log(button.dataset);
 }
 //* обходим все кнопки, вешаем обработчик на каждую
-
+let professionalButtonId = "professional-button-two";
 //*--------------------------------------2 (ф-я обработчик событий)
 
 //? как professionalButtonId  из функции записать в глобальную переменную professionalButtonId!!!!
@@ -89,19 +88,33 @@ for (let count = 0; count < mainProfessionalButtons.length; count++) {
 
 function onClickProfessionalButton(evt) {
   evt.preventDefault();
-  // const el = evt.target;
+  const professionalButton = evt.target;
   // console.log("Событие инициировано на", evt.target);
   // let professionalButtonId = el.dataset.id;
-  let professionalButtonId = evt.target.dataset.id;
+  let professionalButtonId = professionalButton.dataset.id;
   console.log(professionalButtonId);
+  // buttonClass();
   renderProfessional();
   // return professionalButtonId;
   // console.log(`Вы нажали кнопку с id =`, button.dataset.id);
   //* создаем обработчик событий
+
+  function classProfessionalButton() {
+    mainProfessionalButtons.forEach((btn) => {
+      btn.classList.remove("main-professional__link_active");
+    });
+    professionalButton.classList.add("main-professional__link_active");
+    console.log(professionalButton);
+  }
+  classProfessionalButton();
+  //*класс для кнопок
 }
 
 // console.log(professionalButtonId);
-
+//*--------------------------------------
+// function buttonClass() {
+//   evt.target.classList.add("main-professional__link_active");
+// }
 //*-------------------------------------3
 let slideProfessional = slideProfessionals.find(function (item) {
   return item.id === professionalButtonId;
