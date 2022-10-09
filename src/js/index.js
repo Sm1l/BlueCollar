@@ -1,5 +1,1 @@
-import {
-  createProfessionalDescriptionPart,
-  createProfessionalElement,
-  renderProfessional,
-} from "./professional.js";
+import { createProfessionalDescriptionPart, createProfessionalElement, renderProfessional } from "./professional.js";
