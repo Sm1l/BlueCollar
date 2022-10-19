@@ -1,0 +1,15 @@
+@mixin before($top: 0, $left: 0, $width, $height) {
+  content: "";
+  display: block;
+  position: absolute;
+  top: $top;
+  left: $left;
+  width: $width;
+  height: $height;
+}
+
+@mixin span($color) {
+  position: relative;
+  padding: 5px 20px 5px 50px;
+  background-color: $color;
+}

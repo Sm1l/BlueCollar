@@ -23,10 +23,9 @@
 
   &__top {
     & span {
-      position: relative;
+      @include span(#f4f4f4);
       color: var(--color-blue);
-      background-color: #f4f4f4;
-      padding: 5px 20px 5px 40px;
+
       &::before {
         content: "";
         position: absolute;
@@ -40,7 +39,6 @@
   }
 
   &__title {
-    color: var(--color-blue);
   }
 
   &__text {

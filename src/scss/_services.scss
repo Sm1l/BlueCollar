@@ -1,8 +1,161 @@
 .services {
-}
-.container {
-  &__services {
+  &__container {
     background-color: #f4f4f4;
-    height: 800px;
+  }
+  &__body {
+    margin: 0 auto;
+    padding: 200px 120px 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  &__top {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 0px 10px;
+    & span {
+      @include span(#fff);
+      color: var(--color-blue);
+      &::before {
+        @include before(5px, 20px, 22px, 27px);
+        background: url(/src/images/services/ServicesSpan.svg);
+      }
+    }
+  }
+
+  &__title {
+  }
+
+  &__text {
+  }
+
+  &__column {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+  }
+}
+
+.item-services {
+  background-color: var(--color-blue);
+  flex: 1 31%;
+  padding: 50px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__image {
+  }
+
+  &__title {
+    color: var(--color-yellow);
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0.36px;
+  }
+
+  &__text {
+    color: #d2d2d2;
+  }
+
+  &__link {
+    color: #fff;
+    &:hover {
+      color: var(--color-yellow);
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .services {
+    &__container {
+    }
+
+    &__body {
+      padding: 40px 10px;
+    }
+
+    &__top {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+
+    &__column {
+      gap: 15px;
+    }
+
+    &__item {
+    }
+  }
+
+  .item-services {
+    flex: 1 48%;
+    padding: 20px 15px;
+
+    gap: 15px;
+
+    &__image {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+
+    &__link {
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .services {
+    &__container {
+    }
+
+    &__body {
+      padding: 40px 10px;
+    }
+
+    &__top {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+
+    &__column {
+    }
+
+    &__item {
+    }
+  }
+
+  .item-services {
+    flex: 1 100%;
+
+    &__image {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+
+    &__link {
+    }
   }
 }

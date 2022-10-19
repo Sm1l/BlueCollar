@@ -1,7 +1,13 @@
+import breadCrumbsImage1 from "../images/professional/Professional2.svg";
+import breadCrumbsImage2 from "../images/professional/Professional3.svg";
+import breadCrumbsImage3 from "../images/professional/Professional4.svg";
+import image1 from "../images/professional/ProfessionalImage.jpg";
+import image2 from "../images/welcome/IMAGE2.jpg";
+
 const slideProfessionals = [
   {
     id: "professional-button-one",
-    breadСrumbsImage: "image/",
+    breadСrumbsImage: `${breadCrumbsImage1}`,
     breadСrumbs: "Electrical installation",
     title: "Commercial",
     description: [
@@ -9,11 +15,11 @@ const slideProfessionals = [
       "In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.",
     ],
     buttonLink: "https://sm1l.github.io/BazaVAGa",
-    image: "/src/images/professional/ProfessionalImage.jpg",
+    image: `${image1}`,
   },
   {
     id: "professional-button-two",
-    breadСrumbsImage: "",
+    breadСrumbsImage: `${breadCrumbsImage2}`,
     breadСrumbs: "Residential",
     title: "Residential",
     description: [
@@ -23,16 +29,16 @@ const slideProfessionals = [
       "Это четвертый абзац.",
     ],
     buttonLink: "https://sm1l.github.io/AliceWeather",
-    image: "../images/welcome/IMAGE2.jpg",
+    image: `${image2}`,
   },
   {
     id: "professional-button-three",
-    breadСrumbsImage: "",
+    breadСrumbsImage: `${breadCrumbsImage3}`,
     breadСrumbs: "Industrial",
     title: "Industrial",
-    description: ["Первый абзацтретьей страницы", "Второй абзац третьей страницы"],
+    description: ["Первый абзац третьей страницы", "Второй абзац третьей страницы"],
     buttonLink: "https://sm1l.github.io/BlueCollar/industrial",
-    image: "img",
+    image: `${image1}`,
   },
 ];
 
@@ -61,7 +67,7 @@ mainProfessionalButtons.forEach((el) => el.addEventListener("click", onClickProf
 function onClickProfessionalButton(evt) {
   evt.preventDefault();
   const slideProfessional = slideProfessionals.find((item) => item.id === evt.target.dataset.id);
-  //*--Получаем нужный нам объект из массива
+  //*Получаем нужный нам объект из массива
   renderProfessional(slideProfessional);
   classProfessionalButton(evt.target);
 }
