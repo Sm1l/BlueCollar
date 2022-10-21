@@ -5,7 +5,9 @@
 
   &__left {
     flex: 0 1 50%;
-    padding: 140px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__right {
@@ -15,14 +17,17 @@
 
 .left-whychooseus {
   background-image: url(/src/images/whychooseus/WhycgooseusImage.jpg);
-  //   object-fit: cover;
-  //   background-position: right;
+  background-size: cover;
+  background-position: top center;
 
   &__body {
-    padding: 100px 80px;
+    padding: 60px;
     background: rgba(28, 39, 82, 0.86);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     gap: 25px;
   }
 
@@ -60,7 +65,7 @@
     // animation: toleft 800ms ease-in both;
     &:hover {
       color: var(--color-blue);
-      transition: color 800ms ease-in;
+      transition: color 300ms ease-in;
     }
     &::before {
       content: "";
@@ -73,28 +78,55 @@
       z-index: -1;
     }
     &:hover::before {
-      animation: toleft 800ms ease-in both;
+      animation: toleft 300ms ease-in both;
       // z-index: 2;
     }
   }
 }
 .right-whychooseus {
   &__body {
+    padding: 100px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
 
   &__top {
+    & span {
+      @include span(#f4f4f4);
+      color: var(--color-blue);
+      &::before {
+        @include before(0px, 20px, 22px, 27px);
+        background: url(/src/images/services/ServicesSpan.svg);
+      }
+    }
   }
 
   &__bottom {
   }
 
   &__items {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
   }
 
   &__item {
+    position: relative;
+    padding: 0px 0px 0px 45px;
+    &::before {
+      @include before(0, 0, 32px, 32px);
+      background-image: url(/src/images/whychooseus/WhychooseusIcon.svg);
+    }
   }
 
   &__title {
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.36px;
+    color: var(--color-blue);
+    padding: 0px 0px 10px 0px;
   }
 
   &__text {
@@ -105,5 +137,77 @@
   }
 
   &__text {
+  }
+}
+
+@media (max-width: 1000px) {
+  .whychooseus {
+    &__container {
+      flex-direction: column-reverse;
+    }
+
+    &__left {
+      display: block;
+    }
+
+    &__right {
+    }
+  }
+
+  .left-whychooseus {
+    &__body {
+      gap: 20px;
+      padding: 40px 10px;
+    }
+
+    &__item {
+      width: 100%;
+    }
+
+    &__number {
+    }
+
+    &__button {
+      width: 100%;
+      &:hover {
+        background-color: var(--color-yellow);
+        border: 1px solid var(--color-yellow);
+      }
+      &:hover::before {
+        animation: none;
+      }
+    }
+  }
+  .right-whychooseus {
+    &__body {
+      padding: 40px 10px;
+      gap: 20px;
+    }
+
+    &__top {
+    }
+
+    &__bottom {
+    }
+
+    &__items {
+      gap: 10px;
+    }
+
+    &__item {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+  }
+  .services {
+    &__title {
+    }
+
+    &__text {
+    }
   }
 }
