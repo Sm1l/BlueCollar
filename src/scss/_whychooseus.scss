@@ -93,7 +93,7 @@
 
   &__top {
     & span {
-      @include span(#f4f4f4);
+      @include span(var(--color-light-grey));
       color: var(--color-blue);
       &::before {
         @include before(0px, 20px, 22px, 27px);
