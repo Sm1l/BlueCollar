@@ -559,11 +559,15 @@
         </section>
         <section class="page__feedback feedback">
           <div class="feedback__container _container">
+            <div class="testimonial__top">
+              <span>Testimonial</span>
+              <h2 class="testimonial__title _title">Customers Says</h2>
+            </div>
+            <div class="meetus__top">
+              <span>Meet Us</span>
+              <h2 class="testimonial__title _title">Appointment Form</h2>
+            </div>
             <div class="feedback__testimonial testimonial">
-              <div class="testimonial__top">
-                <span>Testimonial</span>
-                <h2 class="testimonial__title _title">Customers Says</h2>
-              </div>
               <div class="testimonial__comments testimonial-comments">
                 <div class="testimonial-comments__top">
                   <div class="testimonial-comments__image">
@@ -597,35 +601,143 @@
               </div>
             </div>
             <div class="feedback__meetus meetus">
-              <div class="meetus__top">
-                <span>Meet Us</span>
-                <h2 class="testimonial__title _title">Appointment Form</h2>
-              </div>
               <div class="meetus__form form-meetus">
                 <form action="" method="post" enctype="text/plain" class="form-meetus__form">
                   <label for="">
-                    <input type="text" name="name" autocomplete="name" placeholder="Your name" required />
+                    <input
+                      class="form-meetus_name _input"
+                      type="text"
+                      name="name"
+                      autocomplete="name"
+                      placeholder="Your name"
+                      required
+                    />
                   </label>
                   <label for="">
-                    <input type="text" name="email" autocomplete="email" placeholder="Your email" required />
+                    <input
+                      class="form-meetus_email _input"
+                      type="text"
+                      name="email"
+                      autocomplete="email"
+                      placeholder="Your email"
+                      required
+                    />
                   </label>
                   <label for="">
-                    <input type="text" name="phone" autocomplete="tel" placeholder="Phone number" required />
+                    <input
+                      class="form-meetus_phone _input"
+                      type="text"
+                      name="phone"
+                      autocomplete="tel"
+                      placeholder="Phone number"
+                      required
+                    />
                   </label>
                   <label for="">
-                    <input type="text" name="date" placeholder="Date" required />
+                    <input class="form-meetus_date _input" type="text" name="date" placeholder="Date" required />
                   </label>
                   <label for="">
-                    <textarea name="description" id="" cols="30" rows="10" required>Service Description</textarea>
+                    <textarea
+                      class="form-meetus_description _input"
+                      name="description"
+                      id=""
+                      cols="30"
+                      rows="10"
+                      placeholder="Service Description"
+                      required
+                    ></textarea>
                   </label>
-
-                  <button class="form-meetus__button" type="submit">Ы</button>
+                  <button class="form-meetus__button _button" type="submit">Submit</button>
                 </form>
               </div>
             </div>
           </div>
         </section>
+        <section class="page__clients clients">
+          <div class="clients__container _container">
+            <div class="clients__top">
+              <span>Clients</span>
+              <h2 class="clients__title _title">Our Trusted Big Clients!</h2>
+            </div>
+            <div class="clients__body">
+              <div class="clients__item">
+                <img src="/src/images/clients/clientsImage1.svg" alt="наши партнеры - Bride" class="clients__image" />
+              </div>
+              <div class="clients__item">
+                <img
+                  src="/src/images/clients/clientsImage2.svg"
+                  alt="наши партнеры - Building"
+                  class="clients__image"
+                />
+              </div>
+              <div class="clients__item">
+                <img
+                  src="/src/images/clients/clientsImage3.svg"
+                  alt="наши партнеры - Construction"
+                  class="clients__image"
+                />
+              </div>
+              <div class="clients__item">
+                <img src="/src/images/clients/clientsImage4.svg" alt="наши партнеры - Company" class="clients__image" />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+      <section class="page__priceplan priceplan">
+        <div class="priceplan__container _container">
+          <div class="priceplan__head">
+            <div class="priceplan__top">
+              <span>Price Plan</span>
+              <h2 class="priceplan__title _title">Let’s Customize Work With Affordable Price</h2>
+            </div>
+            <div class="priceplan__text">
+              This is passionate about delivering growth and the new possibilities in the field of electrical services.
+              We have extensive experience of domestic and business electrical installations and no job is too small.
+            </div>
+          </div>
+          <div class="priceplan__body">
+            <div class="priceplan__card card-priceplan">
+              <div class="card-priceplan__type">
+                <div class="card-priceplan__left">
+                  <h4 class="card-priceplan__title">Basic Plan</h4>
+                  <span class="card-priceplan__price">$ 599.00</span>
+                </div>
+                <div class="card-priceplan__right">
+                  <span class="card-priceplan__popular"></span>
+                  <span class="card-priceplan__visit">Per Visit Charge</span>
+                </div>
+              </div>
+              <ul class="card-priceplan__advantages">
+                <li class="card-priceplan__advantage">Electrical Service</li>
+                <li class="card-priceplan__advantage">Distribution Power Systemss</li>
+                <li class="card-priceplan__advantage">High & Medium Voltages</li>
+                <li class="card-priceplan__advantage">Industrial Control Systems</li>
+                <li class="card-priceplan__advantage">Switch Installation</li>
+                <li class="card-priceplan__advantage">Generator Installations</li>
+                <li class="card-priceplan__advantage">Innovative Construction</li>
+              </ul>
+              <a href="" class="card-priceplan__button _button">Buy Now</a>
+            </div>
+          </div>
+          <div class="priceplan__bottom bottom-priceplan">
+            <div class="bottom-priceplan__container">
+              <h3 class="bottom-priceplan__title">Affordable Price</h3>
+              <p class="bottom-priceplan__text">
+                We adhere strictly to the current National Electrical Code, and we conduct regular in-house sessions
+                with our technicians to review any code changes and applications.
+              </p>
+            </div>
+            <div class="bottom-priceplan__container">
+              <h3 class="bottom-priceplan__title">Fixed Plan</h3>
+              <p class="bottom-priceplan__text">
+                We understand fully that your time is of extreme value. You will never have to worry about waiting
+                around for our trained technicians.24/7 Service Providers Affordable Price.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <footer class="footer">
         <div class="footer__container _container">
