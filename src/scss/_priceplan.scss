@@ -1,0 +1,242 @@
+.priceplan {
+  &__container {
+    padding: 140px 120px;
+    background-color: var(--color-light-grey);
+  }
+
+  &__head {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 0px 60px 0px;
+  }
+
+  &__top {
+    flex: 1 50%;
+    & span {
+      @include span(var(--color-white));
+      color: var(--color-blue);
+      &::before {
+        @include before(0px, 23px, 22px, 27px);
+        background: url(/src/images/services/ServicesSpan.svg);
+      }
+    }
+  }
+
+  &__title {
+  }
+
+  &__text {
+    flex: 1 50%;
+  }
+
+  &__body {
+    display: flex;
+    gap: 30px;
+    padding: 0px 0px 60px 0px;
+  }
+
+  &__card {
+  }
+
+  &__bottom {
+  }
+}
+
+.card-priceplan {
+  display: flex;
+  flex-direction: column;
+  flex: 1 31%;
+  gap: 20px;
+  background-color: var(--color-white);
+  padding: 40px;
+
+  &__type {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 3px solid var(--color-light-grey);
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    color: var(--color-blue);
+  }
+
+  &__title {
+    font-size: 20px;
+    line-height: 150%;
+  }
+
+  &__price {
+    font-size: 32px;
+    line-height: 110%;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__popular {
+    display: inline-block;
+    background-color: var(--color-yellow);
+    color: var(--color-blue);
+    text-transform: uppercase;
+  }
+
+  &__visit {
+    font-size: 14px;
+  }
+
+  &__advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 0px 20px 0px;
+  }
+
+  &__advantage {
+    position: relative;
+    padding: 0px 0px 0px 30px;
+    &::before {
+      @include before(3px, 0, 19px, 19px);
+      background: url(/src/images/priceplan/priceplanMarker.svg);
+    }
+  }
+
+  &__button {
+    background-color: var(--color-yellow);
+    color: var(--color-blue);
+    width: 100%;
+    &:hover {
+      background-color: var(--color-white);
+      border: 1px solid var(--color-blue);
+    }
+  }
+}
+.bottom-priceplan {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  &__container {
+    position: relative;
+    padding: 0px 0px 0px 40px;
+    &::before {
+      @include before(0, 0, 32px, 32px);
+      background: url(/src/images/priceplan/priceplanMarkerBig.svg);
+    }
+  }
+
+  &__title {
+    font-size: 20px;
+    color: var(--color-blue);
+    line-height: 140%;
+    padding: 0px 0px 10px 0px;
+  }
+
+  &__text {
+  }
+}
+@media (max-width: 1250px) {
+  .priceplan {
+    &__container {
+      // padding: 140px 120px;
+    }
+    &__body {
+      display: flex;
+      flex-direction: column;
+      // gap: 30px;
+      // padding: 0px 0px 60px 0px;
+    }
+    &__advantages {
+      flex-direction: row;
+    }
+    &__advantage {
+      display: block;
+      flex: 1 33%;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .priceplan {
+    &__container {
+      padding: 40px 10px 40px 10px;
+    }
+
+    &__head {
+      flex-direction: column;
+    }
+
+    &__top {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+
+    &__body {
+    }
+
+    &__card {
+    }
+
+    &__bottom {
+      flex-direction: column;
+    }
+  }
+
+  .card-priceplan {
+    padding: 40px 10px 40px 10px;
+    &__type {
+    }
+
+    &__left {
+    }
+
+    &__title {
+    }
+
+    &__price {
+      font-size: 28px;
+    }
+
+    &__right {
+    }
+
+    &__popular {
+    }
+
+    &__visit {
+    }
+
+    &__advantages {
+    }
+
+    &__advantage {
+    }
+
+    &__button {
+    }
+  }
+  .bottom-priceplan {
+    &__container {
+    }
+
+    &__title {
+    }
+
+    &__text {
+    }
+  }
+}

@@ -1,0 +1,234 @@
+.feedback {
+  &__container {
+    display: grid;
+    grid-template: auto 1fr / 1fr 1fr;
+    padding: 140px 120px 0px;
+    gap: 40px;
+  }
+
+  &__testimonial {
+    &__top {
+    }
+  }
+
+  &__meetus {
+    &__top {
+    }
+  }
+}
+
+.testimonial {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  // gap: 40px;
+  &__top {
+    position: relative;
+
+    & span {
+      @include span(var(--color-light-grey));
+      color: var(--color-blue);
+      &::before {
+        @include before(0px, 23px, 22px, 27px);
+        background: url(/src/images/services/ServicesSpan.svg);
+      }
+    }
+  }
+
+  &__title {
+  }
+
+  &__comments {
+  }
+
+  &__questions {
+  }
+}
+.testimonial-comments {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  border: 2px solid var(--color-light-grey);
+
+  &__top {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    border-bottom: 2px solid var(--color-light-grey);
+    padding: 0px 0px 30px 0px;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 55px;
+      height: 55px;
+      background: url(/src/images/testimonial/testimonialQuote.svg);
+    }
+  }
+
+  &__image {
+    & img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+  }
+
+  &__info {
+    display: block;
+  }
+
+  &__name {
+    display: block;
+    font-size: 22px;
+    line-height: 140%;
+    color: var(--color-blue);
+  }
+
+  &__city {
+  }
+
+  &__text {
+  }
+
+  &__buttons {
+  }
+}
+.questions-testimonial {
+  background-color: var(--color-yellow);
+  padding: 40px;
+  position: relative;
+  & span {
+    @include span(var(--color-light-grey));
+    color: var(--color-blue);
+    &::before {
+      @include before(2px, 23px, 22px, 27px);
+      background: url(/src/images/services/ServicesSpan.svg);
+    }
+  }
+  &__title {
+    padding: 20px 0px 20px 0px;
+    font-size: 25px;
+    line-height: 130%;
+    color: var(--color-blue);
+  }
+
+  &__text {
+    padding: 0px 0px 20px 0px;
+    color: var(--color-blue);
+  }
+
+  &__tel {
+    position: relative;
+    font-size: 30px;
+    line-height: 150%;
+    color: var(--color-white);
+    padding: 0px 0px 0px 60px;
+    transition: all 300ms ease-out;
+    &::before {
+      @include before(-6px, 0, 50px, 50px);
+      background: url(/src/images/testimonial/testimonialPhone.svg);
+    }
+    &:hover {
+      text-decoration: underline;
+      color: var(--color-blue);
+      transition: all 300ms ease-out;
+    }
+  }
+}
+.meetus {
+  padding: 40px;
+  background-color: var(--color-light-grey);
+
+  &__top {
+    position: relative;
+    & span {
+      @include span(var(--color-light-grey));
+      color: var(--color-blue);
+      &::before {
+        @include before(0px, 23px, 22px, 27px);
+        background: url(/src/images/services/ServicesSpan.svg);
+      }
+    }
+  }
+}
+._input {
+  display: block;
+  padding: 5px 20px;
+  color: var(--color-blue);
+  width: 100%;
+  height: 65px;
+  border: 1px solid var(--color-grey);
+  font-size: 17px;
+  line-height: 159%;
+  &:not(:last-child) {
+    margin: 0px 0px 25px 0px;
+  }
+}
+
+.form-meetus {
+  &_name {
+  }
+
+  &_email {
+  }
+
+  &_phone {
+  }
+
+  &_date {
+  }
+
+  &_description {
+    height: 150px;
+    resize: none;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  &__button {
+    background-color: var(--color-yellow);
+    color: var(--color-blue);
+
+    &:hover {
+      background-color: var(--color-white);
+      border: 1px solid var(--color-blue);
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .feedback {
+    &__container {
+      grid-template: repeat(4, auto) / auto;
+      padding: 40px 10px;
+      gap: 10px;
+      grid-template-areas:
+        "testimonial_top"
+        "testimonial"
+        "meetus_top"
+        "meetus";
+    }
+
+    &__testimonial {
+      grid-area: testimonial;
+      &__top {
+        grid-area: testimonial_top;
+      }
+    }
+
+    &__meetus {
+      grid-area: meetus;
+      padding: 40px 10px;
+      &__top {
+        grid-area: meetus_top;
+      }
+    }
+  }
+}

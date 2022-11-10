@@ -1,0 +1,70 @@
+.clients {
+  &__container {
+    padding: 140px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & span {
+      @include span(var(--color-light-grey));
+      color: var(--color-blue);
+      &::before {
+        @include before(0px, 23px, 22px, 27px);
+        background: url(/src/images/services/ServicesSpan.svg);
+      }
+    }
+  }
+
+  &__title {
+  }
+
+  &__body {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__item {
+    flex: 1 25%;
+  }
+
+  &__image {
+  }
+}
+
+@media (max-width: 1000px) {
+  .clients {
+    &__container {
+      padding: 40px 10px;
+    }
+    &__top {
+      align-items: flex-start;
+    }
+    &__body {
+      flex-wrap: wrap;
+      // gap: 10px;
+    }
+    &__item {
+      flex: 1 48%;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .clients {
+    &__container {
+    }
+    &__body {
+    }
+    &__item {
+      flex: 1 100%;
+    }
+  }
+}
