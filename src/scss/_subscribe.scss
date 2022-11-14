@@ -36,6 +36,10 @@
     &::placeholder {
       color: var(--color-white);
     }
+    &:focus {
+      background-color: var(--color-white);
+      color: var(--color-blue);
+    }
   }
 
   &__label {
@@ -48,6 +52,12 @@
   &__button {
     height: 65px;
     background-color: var(--color-white);
+    transition: all 300ms ease-out;
+    &:hover {
+      background-color: var(--color-blue);
+      color: var(--color-white);
+      transition: all 300ms ease-out;
+    }
   }
 }
 

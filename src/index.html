@@ -568,25 +568,31 @@
               <h2 class="testimonial__title _title">Appointment Form</h2>
             </div>
             <div class="feedback__testimonial testimonial">
-              <div class="testimonial__comments testimonial-comments">
-                <div class="testimonial-comments__top">
-                  <div class="testimonial-comments__image">
-                    <img src="/src/images/testimonial/testimonialPhoto.jpg" alt="фотография человека" />
+              <div class="testimonial__wrapper">
+                <div class="testimonial__comments testimonial-comments">
+                  <div class="testimonial-comments__top">
+                    <div class="testimonial-comments__image">
+                      <img
+                        id="testimonial-photo"
+                        src="/src/images/testimonial/testimonialPhoto.jpg"
+                        alt="фотография человека"
+                      />
+                    </div>
+                    <div class="testimonial-comments__info">
+                      <span id="testimonial-name" class="testimonial-comments__name">Nancy luther</span>
+                      <span id="testimonial-city" class="testimonial-comments__city">NewYork</span>
+                    </div>
                   </div>
-                  <div class="testimonial-comments__info">
-                    <span class="testimonial-comments__name">Nancy luther</span>
-                    <span class="testimonial-comments__city">NewYork</span>
+                  <div id="testimonial-text" class="testimonial-comments__text">
+                    We have had several good experiences with Blue Collar team. Most recently, they replaced our
+                    20-year-old HVAC system with a new, modern, and more efficient system & it worked fine.
                   </div>
-                </div>
-                <div class="testimonial-comments__text">
-                  We have had several good experiences with Blue Collar team. Most recently, they replaced our
-                  20-year-old HVAC system with a new, modern, and more efficient system & it worked fine.
                 </div>
                 <div class="testimonial-comments__buttons">
-                  <a href="#" class="testimonial-comments__button">
+                  <a href="#" class="testimonial-comments__button" id="testimonial-button-left">
                     <img src="/src/images/testimonial/testimonialLeft.svg" alt="кнопка влево" />
                   </a>
-                  <a href="#" class="testimonial-comments__button">
+                  <a href="#" class="testimonial-comments__button" id="testimonial-button-right">
                     <img src="/src/images/testimonial/testimonialRight.svg" alt="кнопка вправо" />
                   </a>
                 </div>

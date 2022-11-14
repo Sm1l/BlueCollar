@@ -49,8 +49,8 @@ const buttonProfessional = document.querySelector("#slide-professional__button")
 
 const imageProfessional = document.querySelector("#slide-professional__image");
 
-console.log(breadСrumbsProfessional);
-console.log(descriptionProfessional);
+// console.log(breadСrumbsProfessional);
+// console.log(descriptionProfessional);
 
 export function createProfessionalDescriptionPart(text) {
   const pEl = document.createElement("p"); //создаем элемент </p>

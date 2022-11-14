@@ -46,6 +46,7 @@
 .card-priceplan {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex: 1 31%;
   gap: 20px;
   background-color: var(--color-white);
