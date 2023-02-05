@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "rm -rf dist && parcel",
-    "build": "rm -rf docs && parcel build --public-url='/BlueCollar/' --dist-dir=docs"
+    "build": "rm -rf dist && parcel build --public-url='.' --dist-dir=docs"
   },
   "keywords": [],
   "author": "",
